@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: spring19824-gitops-repository
+spec:
+  url: https://github.com/rhtap-qe-jsmid/spring19824-gitops
